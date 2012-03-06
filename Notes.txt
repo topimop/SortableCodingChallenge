@@ -1,0 +1,84 @@
+﻿// Notes.txt
+
+
+//-----------------------
+
+Based on the paper 
+
+"Efficient Entity Resolution for Large Heterogeneous Information Spaces"
+
+	George Papadakis
+	L3S Research Center
+	Hannover, Germany
+	papadakis@L3S.de
+
+	Ekaterini Ioannou
+	L3S Research Center
+	Hannover, Germany
+	ioannou@L3S.de
+
+	Claudia Niederée
+	L3S Research Center
+	Hannover, Germany
+	niederee@L3S.de
+
+	Peter Fankhauser
+	Fraunhofer IPSI
+	Darmstadt, Germany
+	fankhaus@ipsi.fhg.de
+
+
+http://www.l3s.de/web/upload/documents/1/conf-wsdm-papadakisINF11.pdf
+
+//-----------------------
+
+Default installation location:
+
+	C:\L3SEntityResolution
+
+
+Installed files:
+
+	C:\L3SEntityResolution>dir /s
+	 Volume in drive C has no label.
+	 Volume Serial Number is 9CB7-4141
+
+	 Directory of C:\L3SEntityResolution
+
+	03/01/2012  09:32 PM    <DIR>          .
+	03/01/2012  09:32 PM    <DIR>          ..
+	03/01/2012  09:32 PM    <DIR>          Data
+	03/01/2012  09:31 PM             3,500 JsonParser.cs
+	03/01/2012  09:31 PM             2,829 L3sEntityResolution.csproj
+	03/01/2012  09:31 PM            13,824 L3sEntityResolution.exe
+	03/01/2012  09:31 PM               144 L3sEntityResolution.exe.config
+	03/01/2012  09:31 PM               522 Notes.txt
+	03/01/2012  09:31 PM            11,035 Program.cs
+	03/01/2012  09:32 PM    <DIR>          Properties
+				   6 File(s)         31,854 bytes
+
+	 Directory of C:\L3SEntityResolution\Data
+
+	03/01/2012  09:32 PM    <DIR>          .
+	03/01/2012  09:32 PM    <DIR>          ..
+	03/01/2012  09:31 PM         3,332,872 listings.txt
+	03/01/2012  09:31 PM           104,629 products.txt
+				   2 File(s)      3,437,501 bytes
+
+	 Directory of C:\L3SEntityResolution\Properties
+
+	03/01/2012  09:32 PM    <DIR>          .
+	03/01/2012  09:32 PM    <DIR>          ..
+	03/01/2012  09:31 PM             1,450 AssemblyInfo.cs
+				   1 File(s)          1,450 bytes
+
+
+//-----------------------
+
+L3sEntityResolution.exe is a console program.
+It reads the products.txt and listings.txt files from the subdirectory .\Data,
+and outputs the file results.txt to the current directory.
+
+The files products.txt and listings.txt are the original ones from 
+	challenge_data_20110429.tar.gz (370 KB)
+
